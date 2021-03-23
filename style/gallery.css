@@ -262,6 +262,9 @@ body{
     justify-content: center;
 }
 
+.facebook, .telegram, .insta{
+    cursor: pointer;
+}
 .phrase{
     color:#F6FBFF;
     font-family: 'Roboto Slab', serif;
