@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "style/bootstrap-grid.min.css">
+    <link rel = "stylesheet" href = "style/gallery.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row head-row-first">
+                <div class="logo col-3 col-md-3">
+                    <img class = "ab-logo" src="img/Logo.svg" alt="logo: Art Ballet">
+                </div>
+                <div class="menu col-7">
+                    <a href="index.html" class="base">Головна</a>
+                    <a href="gallery.html" class="gallery">Фотогалерея</a>
+                    <a href="info.html" class="information">Інформація</a>
+                    <a href="contacts.html" class="contacts">Контакти</a>
+                </div>
+                <div class="col-4 col-md-7 unvis-menu"></div>
+                <div class="phone-number col-5 col-md-2">
+                    <img class = "icon-telef" src="img/telephone.svg" alt="telephone">
+                    <p class="number">+380676825442</p>
+                </div>
+               
+                <div class="col-5 burger">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class="menu-btn" for="menu-toggle">
+                      <span></span>
+                    </label>
+                    <ul class="menu-burger">
+                        <li class="item">
+                          <a class="scroll" href="index.html">Головна</a>
+                        </li>
+                        <li class="item">
+                          <a class="scroll" href="gallery.html">Фотогалерея</a>
+                        </li>
+                        <li class="item">
+                          <a class="scroll" href="info.html">Інформація</a>
+                        </li>
+                        <li class="item">
+                          <a class="scroll" href="contacts.html">Контакти</a>
+                        </li>
+                      </ul>
+                </div>
+            </div> 
+            <div class="row head-row-menu">
+                <div class="menu-telef col-12">
+                    <a href="index.html" class="base">Головна</a>
+                    <a href="gallery.html" class="gallery">Фотогалерея</a>
+                    <a href="info.html" class="information">Інформація</a>
+                    <a href="contacts.html" class="contacts">Контакти</a>
+                </div>
+            </div>
+        </div>
+    </header>
+     
+    <section class="section1">
+        <div class="container">
+            <div class="row section1-title-row">
+                <div class="col-12 section1-title">
+                    <img src="img/left-rounds.svg" alt="rounds" class="left-rounds">
+                    <h2 class="sec1-title">Фотогалерея Театру Танцю Арт-Балет</h2>
+                    <img src="img/right-rounds.svg" alt="rounds" class="right-rounds">
+                </div>
+            </div>
+            <div class="row section1-row">
+                <div class="text-about col-12">
+                    <h2 class="name">Концерти та конкурси</h2>
+                    <p class="sec-text">“A dream you dream alone is only a dream. A dream you dream together is reality.” <br>
+                        John Lennon<br>
+                         Art Ballet Dance Theatre - a dream we dream together!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="photo0 col-6 col-md-4">
+                   <img src="img/01.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/01.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/2.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/2.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/3.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/3.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+           
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/4.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/4.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/5.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/5.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/6.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/6.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+            
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/7.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/7.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/8.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/8.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/9.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/9.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+          
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/10.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/10.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/11.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/11.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/12.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/12.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+           
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/13.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/13.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/14.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/14.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/15.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/15.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+           
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/16.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/16.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/17.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/17.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/18.jpg" alt="photo" class = "ph"></div>
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/18.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div class="container">
+            <div class="row section2-row">
+                <div class="text-about2 col-12">
+                    <h2 class="name">Групові фото</h2>
+                    <p class="sec-text">
+                        Танцюйте при будь-якій погоді, в будь-якій незрозумілій ситуації, 
+                        в будь-якій зрозумілій, танцюйте з нами, танцюйте завжди!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="photo0  col-6 col-md-4">
+                    <img src="img/20.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/20.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0  col-6 col-md-4">
+                    <img src="img/21.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/21.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0  col-6 col-md-4">
+                    <img src="img/22.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/22.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+           
+                <div class="photo0 unvis col-md-4">
+                    <img src="img/23.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/23.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 vis col-6">
+                    <img src="img/33.jpg" alt="photo" class="ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/33.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/24.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/24.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/25.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/25.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+           
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/26.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/26.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/27.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/27.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/28.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/28.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+            
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/29.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/29.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/30.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/30.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/31.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/31.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="container">
+            <div class="row section3-row">
+                <div class="text-about2 col-12">
+                    <h2 class="name">Репетиції</h2>
+                    <p class="sec-text">
+                        Всіх нас об'єднує любов до хореографії, краса і відданість своїй справі.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="photo0  col-6 col-md-4">
+                    <img src="img/40.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/40.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0  col-6 col-md-4">
+                    <img src="img/41.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/41.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0  col-6 col-md-4">
+                    <img src="img/42.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/42.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+           
+                <div class="photo0  col-6 col-md-4">
+                    <img src="img/43.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/43.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0  col-6 col-md-4">
+                    <img src="img/44.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/44.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0  col-6 col-md-4">
+                    <img src="img/45.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/45.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section4">
+        <div class="container">
+            <div class="row section3-row">
+                <div class="text-about2 col-12">
+                    <h2 class="name">Карантин</h2>
+                    <p class="sec-text">
+                        Мистецтво не можна закрити на #quarantine. 
+                        об'єднувати серця в незалежності від відстаней, обставин і навіть часу!)
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/51.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/51.jpg" alt="photo" class="modal-content1" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/52.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/52.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/53.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/53.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/54.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/54.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+          
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/55.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/55.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/56.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/56.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/57.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/57.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+          
+                <div class="photo0 unvis col-6 col-md-4">
+                    <img src="img/58.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/58.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 vis col-6 col-md-4">
+                    <img src="img/582.jpg" alt="photo" class="ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/582.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/59.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/59.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-4">
+                    <img src="img/60.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/60.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+          
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/61.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/61.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/62.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/62.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/63.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/63.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/64.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/64.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="section5">
+        <div class="container">
+            <div class="row section5-row">
+                <div class="text-about2 col-12">
+                    <h2 class="name">Нагороди</h2>
+                    <p class="sec-text">
+                        Такі результати, коли ART насправді FROM THE HEART.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/70.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/70.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/71.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/71.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/72.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/72.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/73.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/73.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+          
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/74.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/74.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/75.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/75.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/76.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/76.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+                <div class="photo0 col-6 col-md-3">
+                    <img src="img/77.jpg" alt="photo" class = "ph">
+                    <div id="my-modal" class="modal">
+                        <span class="close" onclick="document.getElementById('my-modal').style.display='none'">&times;</span>
+                        <img src="img/77.jpg" alt="photo" class="modal-content" id="img1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-row-first">
+                <div class="logo col-3">
+                    <img class = "ab-logo" src="img/Logo.svg" alt="logo: Art Ballet">
+                </div>
+                <div class="col-5 col-md-7 unvis-menu"></div>
+                <div class="menu col-sm-7">
+                    <a href="index.html" class="base-bot">Головна</a>
+                    <a href="gallery.html" class="gallery-bot">Фотогалерея</a>
+                    <a href="info.html" class="information-bot">Інформація</a>
+                    <a href="contacts.html" class="contacts-bot">Контакти</a>
+                </div>
+                <div class="phone-number1 col-4 col-md-2">
+                    <img src="img/telephone2.svg" alt="telephone" class="telephone">
+                    <p class="number-bot">+380676825442</p>
+                </div>
+            </div>
+            <div class="row footer-row-second">
+                <div class="col-9 col-md-10"></div>
+                <div class="col-3 col-md-2 faceb-telegr">
+                    <img src="img/facebook.svg" alt="facebook" class="facebook">
+                    <img src="img/instagram.svg" alt="instagram" class="insta">
+                    <img src="img/telegram.svg" alt="telegram" class="telegram">
+                </div>
+            </div>
+            <row class="row footer-third-row">
+                <div class="col-12 adress-footer">
+                    <p class="adress">ЦКМ КПІ, Проспект Перемоги, 37<br>
+                        метро Політехнічний інститут
+                    </p>
+                </div>
+            </row>
+            <row class="row footer-fourth-row">
+                <div class="col-12 phrase-footer">
+                    <p class="phrase">Танець - єдине мистецтво, матеріалом для якого служимо ми самі</p>
+                </div>
+            </row>
+        </div>
+    </footer>
+    <script src = "js/script.js"></script>
+</body>
+</html>
