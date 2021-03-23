@@ -1,0 +1,745 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: auto;
+}
+
+.header{
+    background: url('../img/dancer.png') no-repeat left bottom, linear-gradient(135deg, rgba(133,160,227,1) 0%, rgba(255,255,255,1) 100%);
+    background-size: auto;
+}
+
+.container{
+    padding: 0;
+}
+
+.head-row-first{
+    padding: 20px 0 0 0 ;
+}
+
+.ab-logo{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.menu, .phone-number, .phone-number1{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.unvis-menu{
+    display: none;
+}
+
+.menu{
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+.menu-telef, .burger{
+    display: none;
+}
+
+.base{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    letter-spacing:0.1em;
+    text-decoration: underline;
+    color: black;
+    padding: 5px;
+}
+
+.gallery, .information, .contacts{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    letter-spacing:0.1em;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.phone-number, .phone-number1{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.number{
+    padding: 0 0 0 5px;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.head-row-second{
+    justify-content: flex-end;
+}
+
+.head-text{
+    margin-top: 220px;
+    margin-bottom: 140px;
+    padding: 0;
+}
+
+.follow{
+    padding: 0 0 15px 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.slogan{
+    padding: 0 0 15px 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.dop-info{
+    padding: 0 0 36px 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.button1{
+    padding: 19px 23px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    background: #0B2545;
+    border-radius: 25px;
+    border: 0;
+    color: #E9F1F7;
+}
+
+.button1:hover{
+    background: #061425;
+    cursor: pointer;
+}
+.left-rounds-sec2, .right-rounds-sec2{
+    display: none;
+}
+.section1-row{
+    justify-content: center;
+    margin-top: 110px;
+    margin-bottom: 137px;
+    align-items: center;
+}
+
+.section1-photo{
+    max-width: 500px;
+    padding: 0;
+    align-items: center;
+}
+
+.photo1{
+    max-width: 500px;
+}
+
+.text-about{
+    max-width: 400px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.sec1-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 35px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.sec1-text{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+.button2{
+    padding: 18px 32px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    background: #0B2545;
+    border-radius: 25px;
+    border: 0;
+    color: #E9F1F7;
+}
+
+.button2:hover{
+    background: #061425;
+    cursor: pointer;
+}
+
+.section2{
+    background: #E9F1F7;
+    padding-bottom: 83px;
+}
+
+.section2-title, .section3-title{
+    justify-content: center;
+    margin-top: 92px;
+    margin-bottom: 62px;
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+
+.sec2-title, .sec3-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 35px;
+    padding: 0;
+    margin: 0 50px 0 50px;
+    text-align: center;
+}
+
+.type1, .type2, .type3{
+    justify-content: center;
+}
+
+.classic, .contemporary, .teatral{
+    height: auto;
+    width: 100%;
+    max-width: 364px;
+}
+
+.classical-text, .contemp-text, .teatral-text{
+    margin-top: 22px;
+    padding: 34px 30px;
+    background: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.teatral-text{
+    padding: 22px 30px;
+}
+
+.contemp-text{
+    padding: 47px 30px; 
+}
+
+.section3{
+    margin-bottom: 150px;
+}
+
+.text-about2{
+    align-items: center;
+    padding: 0;
+    padding-left: 40px;
+}
+
+.section3-row{
+    align-items: center;
+    display: flex;
+}
+
+.section3-title{
+    margin-bottom: 73px;
+}
+
+.section3-photo{
+    padding: 0;
+}
+
+.photo2{
+    width: 100%;
+    height: auto;
+}
+.name{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.sec3-text{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 52px;
+}
+
+.button3{
+    padding: 18px 22px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    background: #0B2545;
+    border-radius: 25px;
+    border: 0;
+    color: #E9F1F7;
+}
+
+.button3:hover{
+    background: #061425;
+    cursor: pointer;
+}
+
+.footer{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(11,37,69,1) 100%);
+}
+
+.footer-row-first{
+    padding-top: 103px;
+}
+
+.logo{
+    padding: 0;
+}
+
+.base-bot, .gallery-bot, .information-bot, .contacts-bot{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    letter-spacing:0.1em;
+    text-decoration: none;
+    color: #F6FBFF;
+    padding: 5px;
+}
+
+.number-bot{
+    color:#F6FBFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 0 0 0 5px;
+}
+
+.faceb-telegr{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.facebook, .telegram, .insta{
+    cursor: pointer;
+}
+.adress-footer{
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.adress{
+    color:#F6FBFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.adress, .phrase{
+    color: #F6FBFF;
+}
+
+.phrase-footer{
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.phrase{
+    color:#F6FBFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media(max-width: 1200px){
+    .head-text{
+        margin-bottom: 100px;
+    }
+    .number, .base, .gallery, .information, .contacts,
+    .number-bot, .base-bot, .gallery-bot, .information-bot, .contacts-bot, .adress{
+        font-size: 18px;
+    }
+    .teatral-text, .classical-text, .contemp-text{
+        padding: 30px 30px;
+    }
+}
+
+@media (max-width: 991px){
+    .menu{
+        display: none;
+    }
+    .unvis-menu{
+        display: flex;
+    }
+    .phone-number{
+        justify-content: flex-end;
+    }
+    .menu-telef{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .head-text{
+        margin-top: 280px;
+        margin-bottom: 105px;
+    }
+    .slogan{
+        padding-bottom: 10px;
+        font-size: 32px;
+    }
+    .dop-info{
+        padding-bottom: 25px;
+    }
+    .sec1-title, .sec2-title, .sec3-title{
+        font-size: 25px;
+    }
+    .classical-text, .contemp-text, .teatral-text{
+        font-size: 16px;
+    }
+    .classical-text{
+        padding: 23px 30px;
+    }
+    .contemp-text, .teatral-text{
+        padding: 33.5px 30px;
+    }
+    .sec1-text, .sec3-text{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .section3{
+        margin-bottom: 100px;
+    }
+    .sec3-text{
+        margin-bottom: 30px;
+    }
+    .photo1{
+        max-width: 350px;
+    }
+    .photo2{
+        padding-right: 10px;
+    }
+    .text-about2{
+        padding-left: 10px;
+    }
+    .name{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px){
+    .number{
+        font-size: 16px;
+    }
+    .head-text{
+        justify-content:flex-start;
+        margin-top: 130px;
+        margin-bottom: 720px;
+        max-width: fit-content;
+    }
+    .follow, .button1{
+        font-size: 16px;
+    }
+    .slogan{
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+    .dop-info{
+        font-size: 18px;
+        max-width: 400px;
+        padding-bottom: 40px;
+        line-height: 25px;
+    }
+
+    .text-about{
+        margin: 0 0 30px 0;
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .wrap{
+        display:flex;
+        justify-content: center;
+    }
+    .sec1-title{
+        margin: 0;
+    }
+    .left-rounds-sec2, .right-rounds-sec2{
+        display:flex;
+    }
+    .left-rounds-sec2{
+        padding-right: 20px;
+        width: 80px;
+        margin: 0;
+    }
+    .right-rounds-sec2{
+        padding-left: 20px;
+        width: 80px;
+        margin: 0;
+    }
+    .sec1-text{
+        margin-top: 50px;
+    }
+    .section1-photo{
+        justify-content: flex-end;
+    }
+    .photo1{
+        max-width: 100%;
+    }
+    .section1-row{
+        margin-bottom: 80px;
+    }
+    .left-rounds{
+        padding-right: 20px;
+        width: 80px;
+    }
+    .right-rounds{
+        padding-left: 20px;
+        width: 80px;
+    }
+    .sec2-title{
+        margin: 0;
+    }
+    .type1, .type2, .type3{
+        justify-content: center;
+    }
+    .contemporary, .classic, .teatral{
+        max-width: 564px;
+    }
+    .classical-text, .contemp-text, .teatral-text{
+        font-size: 18px;
+        align-content: center;
+    }
+    .contemp-text{
+        padding: 41px 30px;
+    }
+    .classical-text{
+        padding: 29px 40px;
+    }
+    .teatral-text{
+        padding: 29px 40px;
+    }
+    .sec3-title{
+        margin: 0;
+    }
+    .section3-photo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .photo2{
+        max-width: 80%;
+        padding: 0;
+    }
+    .text-about2{
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+    }
+    .facebook, .insta, .telegram{
+        width: 25px;
+    }
+    .adress-footer{
+        margin-bottom: 50px;
+    }
+    .adress{
+        font-size: 16px;
+    }
+    .phrase-footer{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .phrase{
+        font-size: 14px;
+    }
+}
+@media (max-width: 575px){
+    .head-row-menu, .phone-number{
+        display: none;
+    }
+    .burger{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    #menu-toggle{
+        opacity: 0;
+    }
+    .menu-btn {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .menu-btn > span,
+    .menu-btn > span::before,
+    .menu-btn > span::after {
+        display: block;
+        position: absolute;
+        align-items: center;
+        width: 100%;
+        height: 2px;
+        background-color:black;
+    }
+    .menu-btn > span::before {
+        content: '';
+        top: -8px;
+    }
+    .menu-btn > span::after {
+        content: '';
+        top: 8px;
+    }
+    .menu-burger {
+        display: block;
+        position: absolute;
+        visibility: hidden;
+        top: 20px;
+        width: 200px;
+        height: 400px;
+        margin: 0 3% 0 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background-color: rgba(11,37,69,0.9);
+    }
+    .scroll {
+        display: block;
+        padding: 12px 24px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        color:#F6FBFF;
+        line-height: 50px;
+        padding: 5px;
+    }
+    .item:hover {
+       background-color: rgba(18, 59, 110, 0.7);
+    }
+    #menu-toggle:checked ~ .menu-btn > span {
+        transform: rotate(45deg);
+    }
+    #menu-toggle:checked ~ .menu-btn > span::before {
+        top: 0;
+        transform: rotate(0);
+        background-color: #F6FBFF;
+    }
+    #menu-toggle:checked ~ .menu-btn > span::after {
+       top: 0;
+       background-color: #F6FBFF;
+       transform: rotate(90deg);
+    }
+    #menu-toggle:checked ~ .menu-burger {
+       visibility: visible;
+       right: 0;
+    }
+
+    .head-row-first, .head-row-second, .section1-row,
+    .section2-title-row, .section2-types, .section3-title-row, .section3-row,
+    .footer-row-first, .footer-row-second, .footer-third-row, .footer-fourth-row{
+        margin: 0 3%;
+    }
+    .ab-logo{
+        max-width: 150px;
+    }
+    .icon-telef{
+        max-width: 15px;
+    }
+    .base, .gallery, .information, .contacts{
+        padding: 0;
+    }
+    .number, .base, .gallery, .information, .contacts,
+    .follow, .phone-number, .adress, .number-bot, .adress{
+        font-size: 12px;
+    }
+    .head-row-second{
+        justify-content: flex-start;
+    }
+    .slogan{
+        font-size: 20px;
+    }
+    .dop-info, .sec1-text, .sec3-text{
+        font-size: 14px;
+    }
+    .button1, .button2, .button3{
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+    .header{
+        background: url('../img/dancer1.png') no-repeat left bottom, linear-gradient(135deg, rgba(133,160,227,1) 0%, rgba(255,255,255,1) 100%);
+        background-size: auto;
+    }
+    .head-text{
+        margin-top: 50px;
+        margin-bottom: 350px;
+    }
+    .text-about{
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .section2-title, .section3-title{
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+    .sec1-text{
+        margin-top: 20px;
+    }
+    .section1-photo{
+        margin-bottom: 30px;
+    }
+    .section2{
+        padding-bottom: 50px;
+    }
+    .right-rounds, .left-rounds, .right-rounds-sec2, .left-rounds-sec2{
+        max-width: 60px;
+    }
+    .section3{
+        margin-bottom: 40px;
+    }
+    .type1, .type2, .type3{
+        padding: 0;
+    }
+    .sec2-title, .sec1-title{
+        font-size: 22px;
+    }
+    .sec3-title{
+        font-size: 20px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .footer-row-first{
+        padding-top: 50px;
+    }
+    .telephone, .facebook, .telegram, .insta{
+        width: 20px;
+    }
+    .adress-footer{
+        margin-bottom: 30px;
+    }
+    .phrase{
+        font-size: 8px;
+    }
+}
