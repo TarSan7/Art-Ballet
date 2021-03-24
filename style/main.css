@@ -547,6 +547,7 @@ body{
     }
     .photo2{
         max-width: 80%;
+        height: 80%;
         padding: 0;
     }
     .text-about2{
@@ -741,5 +742,10 @@ body{
     }
     .phrase{
         font-size: 8px;
+    }
+     .photo2{
+        max-width: 70%;
+        height: 70%;
+        padding: 0;
     }
 }
